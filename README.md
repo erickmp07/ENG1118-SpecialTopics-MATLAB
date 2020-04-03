@@ -11,3 +11,5 @@ Fourth Class - Plots I
 Fifth Class - Plots II
 
 Review 01
+
+Sixth Class - Validations
