@@ -2,17 +2,17 @@
 % Setup inicial
 %
 clc;       % limpa tela de comandos
-clear;     % deleta todas as variáveis
+clear;     % deleta todas as variï¿½veis
 close all; % fecha todas as janelas abertas
 
-addpath('extra01'); % adicionar pasta com arquivos extras para o exercício
+addpath('extra01'); % adicionar pasta com arquivos extras para o exercï¿½cio
 
 audio = CarregarAudio('extra01/cantorEInstrumentos.wav');
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% COLOQUE SEU CÓDIGO AQUI ABAIXO!!!
+% COLOQUE SEU CÃ“DIGO AQUI ABAIXO!!!
 %
 
 % Parte 1: adicione o efeito "fade in" e o "fade out" de 2 segundos
@@ -22,13 +22,13 @@ fadeOut = 1 : -(1 / ((44100 * 2) - 1)) : 0;
 audio(1 : (44100 * 2)) = audio(1 : (44100 * 2)) .* fadeIn;
 audio(end - (44100 * 2) + 1 : end) = audio(end - (44100 * 2) + 1 : end) .* fadeOut;
 
-% Parte 2: acelere a música, removendo 25% da duração
+% Parte 2: acelere a mÃºsica, removendo 25% da duraÃ§Ã£o
  audio(1 : 4 : end) = [];
 
-% Parte 3: faça com que a música toque de trás para frente
+% Parte 3: faÃ§a com que a mÃºsica toque de trÃªs para frente
 audio(1 : end) = audio(end : -1 : 1);
 
-% Parte 4: desacelere a música, dobrando sua duração
+% Parte 4: desacelere a mÃºsica, dobrando sua duraÃ§Ã£o
 zeros = [audio audio] * 0;
 zeros(1 : 2 : end) = audio(1 : end);
 audio = zeros;

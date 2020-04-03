@@ -1,18 +1,18 @@
-% Declare as variáveis a, b, c
+% Declare as variÃ¡veis a, b, c
 a=42
 b=(31*13)+(23-2)
 c=2.5-((pi^5)/(3.7*97.881))
 
-% Some c com a divisão de a por b
+% Some c com a divisÃ£o de a por b
 c + (a / b)
 
-% Declare as variáveis x, y, z
+% Declare as variÃ¡veis x, y, z
 x = [2 1 4 7];
 y = 3 : 20;
 z = 9 : -1 : -8;
 
-% Acesse o primeiro elemento de x, o último de y e o 
-% antepenúltimo de z
+% Acesse o primeiro elemento de x, o Ãºltimo de y e o 
+% antepenÃºltimo de z
 x(1)
 y(end)
 z(end - 2)
@@ -24,6 +24,6 @@ z(1 : 4) = x(1 : 4)
 % pelos elementos de z
 (y .^ 2) ./ z
 
-% Acesse os elementos ímpares de y e concatene-os com 
+% Acesse os elementos Ã­mpares de y e concatene-os com 
 % os elementos de x
 [y(1 : 2 : end) x]
