@@ -2,10 +2,10 @@
 % Setup inicial
 %
 clc;       % limpa tela de comandos
-clear;     % deleta todas as vari�veis
+clear;     % deleta todas as variáveis
 close all; % fecha todas as janelas abertas
 
-addpath('extra01'); % adicionar pasta com arquivos extras para o exerc�cio
+addpath('extra01'); % adicionar pasta com arquivos extras para o exercício
 
 audio = CarregarAudio('extra01/cantorEInstrumentos.wav');
 %
