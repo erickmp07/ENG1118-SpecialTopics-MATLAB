@@ -2,3 +2,5 @@
 
 First Class - Introduction to MATLAB and Arrays
 Second Class - Matrices
+Third Class - 
+Fourth Class - Plots I
