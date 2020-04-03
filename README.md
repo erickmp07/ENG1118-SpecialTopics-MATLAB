@@ -13,3 +13,7 @@ Fifth Class - Plots II
 Review 01
 
 Sixth Class - Validations
+
+Seventh Class - 
+
+Eighth Class - Cells and Texts
