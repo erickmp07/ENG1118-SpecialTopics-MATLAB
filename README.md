@@ -14,7 +14,7 @@ Review 01
 
 Sixth Class - Validations
 
-Seventh Class - 
+Seventh Class - Repetitions and Function Creation
 
 Eighth Class - Cells and Texts
 
